@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <meta content="рыбалка, снасти, советы рыбакам" name="keywords">
+    <meta content="Рыбачок - крупнейший интернет-магазин, способный порадовать любого рыбака: от начинающих и до опытных" name="description">
+    <title>Магазин рыболовных товаров 'Рыбачок'</title>
+</head>
+
+<body>
+    <header class="border-bottom">
+        <div class="container d-flex justify-content-between align-items-center py-2">
+            <div class="text-geo">Ваше местоположение: <a class="geo-loc" href="#">Санкт-Петербург</a></div>
+            <div class="d-flex align-items-center">
+                <div class="me-3 geo-loc">+7 (123) 456-78-90</div>
+                <div class="d-flex me-3">
+                    <a href="#"><img alt="Логотип Телеграм" class="me-3" src="data/svg/tg.svg" style="height: 24px;"></a>
+                    <a href="#"><img alt="Логотип ВКонтакте" class="me-3" src="data/svg/vk.svg" style="height: 24px;"></a>
+                    <a href="#"><img alt="Логотип Ютуба" class="me-3" src="data/svg/yt.svg" style="height: 24px;"></a>
+                </div>
+                <button class="btn btn-header-one btn-outline-primary btn-sm">Войти</button>
+            </div>
+        </div>
+        <nav aria-label="Главная навигация" class="border-bottom">
+            <div class="container d-flex align-items-center justify-content-between py-3">
+                <div class="d-flex align-items-center">
+                    <a href="#"><img alt="Логотип Рыбачок" class="me-3" src="data/stuff/logo.png" style="height: 40px;"></a>
+                    <div class="d-flex">
+                        <a class="text-header-full me-3" href="#">Каталог</a>
+                        <a class="text-header-full" href="#">Начинающим</a>
+                    </div>
+                </div>
+                <form aria-label="Форма поиска" class="d-flex flex-grow-1 mx-3" role="search">
+                    <label class="visually-hidden" for="search-input">Введите текст для поиска</label>
+                    <input aria-label="Поиск" class="form-control" id="search-input" placeholder="Найти катушку, спиннинг, одежду..." type="search">
+                    <button class="btn btn-header-two btn-primary ms-2" type="submit">Найти</button>
+                </form>
+                <div class="d-flex align-items-center">
+                    <div class="text-center me-3">
+                        <a class="header-icon" href="#">
+                            <img alt="Иконка Избранное" src="data/svg/fav.svg" style="width: 24px; height: 24px;">
+                        </a>
+                        <a class="text-header-full d-block" href="#">Избранное</a>
+                    </div>
+                    <div class="text-center me-3">
+                        <a class="header-icon" href="#">
+                            <img alt="Иконка Сравнение" src="data/svg/cmpr.svg" style="width: 24px; height: 24px;">
+                        </a>
+                        <a class="text-header-full d-block" href="#">Сравнение</a>
+                    </div>
+                    <div class="text-center">
+                        <a class="header-icon" href="#">
+                            <img alt="Иконка Корзина" src="data/svg/shp.svg" style="width: 24px; height: 24px;">
+                        </a>
+                        <a class="text-header-full d-block" href="#">Корзина</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container py-5">
+        <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Начинающим</a></li>
+                    <li class="breadcrumb-item"><a href="#">Рыболовные снасти</a></li>
+                    <li class="breadcrumb-item"><a href="#">Оснастка</a></li>
+                    <li class="breadcrumb-item"><a href="#">Оснастка поплавочная</a></li>
+                    <li aria-current="page" class="breadcrumb-item active">Поплавки</li>
+                </ol>
+            </nav>
+        <section class="text-center mb-5">
+            <h1 class="display-4" style="font-family: 'Pacifico', cursive;">Добро пожаловать в "Рыбачок"!</h1>
+            <!--            <p class="lead">Лучший магазин для любителей рыбалки.</p>-->
+        </section>
+        <section class="mb-5">
+
+<!--            <h2 class="first-block-head text-center">Что такое поплавок</h2>-->
+            <div class="d-flex content-wrapper" style="max-width: 960px">
+                <img alt="Поплавок с конструкцией" class="me-3 float-image" src="data/stuff/float.png">
+                <p class="mb-0 first-block-text text-start"><strong>Что такое поплавок?</strong><br>Поплавок — это незаменимый помощник рыбака, который удерживает крючок с приманкой на нужной глубине и сигнализирует о поклёвке. Его изящная форма позволяет легко заметить движение на воде, делая рыбалку ещё увлекательнее. Верхняя часть — антенна, а нижняя — киль, помогают удерживать его в вертикальном положении.<br><br>Сегодня поплавки чаще всего изготавливают из лёгких и прочных материалов, таких как пенополистирол или пластмасса. Это делает их надёжными и удобными, но они всё так же остаются простым и любимым инструментом для каждого рыбака.</p>
+            </div>
+        </section>
+        <section class="mb-5 text-center">
+            <h3 class="first-block-head">Наша особая новинка!</h3>
+            <div style="position: relative; width: 960px; height: 540px; margin: 0 auto; overflow: hidden;">
+                <div style="transform: scale(0.5); transform-origin: top left; width: 1920px; height: 1080px; position: relative;">
+                    <iframe id="animationFrame" src="data/stuff/fakePic.png" style="width: 100%; height: 100%; border: none;"></iframe>
+                    <div id="clickLayer" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; cursor: pointer;"></div>
+                </div>
+            </div>
+        </section>
+        <section class="text-center">
+            <h3 class="first-block-head mb">Спешите приобрести!</h3>
+            <div class="card mx-auto p-3 d-flex flex-row align-items-center product-card" style="max-width: 960px; width: 100%;">
+                <div class="float-card">
+                    <img alt="Поплавок Музыкальный ловец" class="ms-4 float-image2" src="data/stuff/floatShp.png">
+                </div>
+                <div class="text-start text-small-pad" style="flex-grow: 1;">
+                    <h5 class="card-title mb-3">Поплавок "Музыкальный ловец"</h5>
+                    <p class="card-text mb-1">Бренд: <span class="card-text-data">Практик</span></p>
+                    <p class="card-text mb-1">Тип: <span class="card-text-data">аксессуар для эхолота</span></p>
+                    <p class="card-text mb-1">Вес, гр: <span class="card-text-data">15</span></p>
+                    <p class="card-text mb-1">Упаковка, шт: <span class="card-text-data">1</span></p>
+                    <p class="card-text mb-1">Материал: <span class="card-text-data">EVA</span></p>
+                    <p class="card-text mb-3">Длина, см: <span class="card-text-data">9</span></p>
+                    <div class="d-flex mb-0 btn-container">
+                        <button class="btn btn-outline-secondary">Избранное</button>
+                        <button class="btn btn-outline-secondary">Сравнение</button>
+                        <button class="btn btn-card-one btn-primary">Купить</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-4 border-top">
+        <div class="container footer2">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-3">
+                    <h5 class="footer-block-head">Компания</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="footer-block-link" href="#">Главная</a></li>
+                        <li><a class="footer-block-link" href="#">Каталог</a></li>
+                        <li><a class="footer-block-link-active" href="#">Начинающим</a></li>
+                        <li><a class="footer-block-link" href="#">Отзывы</a></li>
+                        <li><a class="footer-block-link" href="#">Контакты</a></li>
+                        <li><a class="footer-block-link" href="#">Доставка и оплата</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <h5 class="footer-block-head">Расписание</h5>
+                    <p class="mb-0 footer-block-text">г. Санкт-Петербург, наб. канала Грибоедова, д. 54, м. Спасская</p>
+                    <p class="mb-0 footer-block-text">Понедельник - Пятница: 9:00 - 18:00</p>
+                    <p class="mb-0 footer-block-text">Суббота: 10:00 - 16:00</p>
+                    <p class="mb-0 footer-block-text">Воскресенье: выходной</p>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <h5 class="footer-block-head">О сайте</h5>
+                    <p class="mb-0 footer-block-text">© 2024 Магазин рыболовных товаров "Рыбачок". Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function () {
+    var clickLayer = document.getElementById('clickLayer');
+    var iframe = document.getElementById('animationFrame');
+
+    clickLayer.addEventListener('click', function () {
+        if (iframe.src.includes('final_completed.html')) {
+            console.log("Stopping animation...");
+            iframe.src = 'data/stuff/fakePic.png';
+        } else {
+            console.log("Starting animation...");
+            iframe.src = 'data/animation/final_completed.html';
+        }
+    });
+});
+
+
+    </script>
+</body>
+</html>
